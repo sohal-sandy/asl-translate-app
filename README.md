@@ -1,6 +1,6 @@
 # ASL Translate App
 
-A real-time American Sign Language (ASL) to English text translation app built using deep learning and computer vision. This project aims to bridge communication gaps for the Deaf and Hard-of-Hearing community by converting ASL sentences—captured through a webcam—into readable English text on the screen.
+A real-time American Sign Language (ASL) to English text translation app built using deep learning and computer vision. This project aims to bridge communication gaps for the Deaf and Hard-of-Hearing community by converting ASL sentences captured through a webcam into readable English text on the screen.
 
 ## Project Purpose:
 
