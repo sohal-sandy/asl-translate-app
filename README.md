@@ -1,15 +1,15 @@
-#ASL Translate App
+# ASL Translate App
 
 A real-time American Sign Language (ASL) to English text translation app built using deep learning and computer vision. This project aims to bridge communication gaps for the Deaf and Hard-of-Hearing community by converting ASL sentences—captured through a webcam—into readable English text on the screen.
 
-##Project Purpose:
+## Project Purpose:
 
 The goal of this project is to build an end-to-end system that:
 - Accepts live video input from a webcam
 - Detects and interprets full ASL sentences using hand gestures, body posture, and facial expressions
 - Outputs fluent English translations in real time
 
-##Proposed Model Overview:
+## Proposed Model Overview:
 
 We will use a two-stage deep learning pipeline trained on the [2M-FLORES-ASL dataset](https://huggingface.co/datasets/facebook/2M-Flores-ASL):
 
@@ -21,7 +21,7 @@ We will use a two-stage deep learning pipeline trained on the [2M-FLORES-ASL dat
    - Fine-tunes a transformer-based language model (e.g., T5 or BART)  
    - Converts ASL gloss to fluent English (e.g.,"She is going to the store.")
 
-##Dataset:
+## Dataset:
 
 - 2M-FLORES-ASL: Includes over 2,000 video samples of real ASL sentences with aligned gloss and English text
 - Stored securely via Azure Blob Storage for team access and efficient retrieval
